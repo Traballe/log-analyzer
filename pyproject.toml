@@ -1,5 +1,5 @@
 [project]
-name = "log-analyser"
+name = "log_analyzer"
 version = "1.0.0"
 description = "A Python-based tool for analyzing log files using the Drain3 algorithm for log parsing and template mining."
 readme = "README.md"
@@ -7,5 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "drain3>=0.9.11",
     "pyinstaller>=6.16.0",
+    "pylint>=4.0.3",
     "tqdm>=4.67.1",
 ]
